@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 95495617993057408}
   - component: {fileID: 143767414156664970}
   - component: {fileID: 114315177840789452}
+  - component: {fileID: 65357719503406786}
   m_Layer: 0
   m_Name: BlueHorseAnimated
   m_TagString: Untagged
@@ -791,7 +792,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1356280119434612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.855074, y: 10.717883, z: 0.22404209}
+  m_LocalPosition: {x: -1.8, y: 10.717883, z: 0.22404209}
   m_LocalScale: {x: 0.73140913, y: 0.73140925, z: 0.73140925}
   m_Children:
   - {fileID: 4301995607724904}
@@ -1381,6 +1382,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1686472615511532}
   m_Mesh: {fileID: 4300000, guid: fe18a38e41742c543b377888c937532d, type: 3}
+--- !u!65 &65357719503406786
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1395225548292644}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.21559, y: 37.44182, z: 17.605122}
+  m_Center: {x: 2.9211512, y: 4.5624447, z: 0.50381655}
 --- !u!95 &95495617993057408
 Animator:
   serializedVersion: 3
@@ -1409,9 +1422,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03348b7550d54f34e8b731fa38135c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fSpeed0: 15
   fSpeed: 8
-  fJumpSpeed: 8
-  fGravity: 4
+  fJumpSpeed: 15
+  fGravity: 10
+  powerUpTime: 3
+  speedBoosted: 25
   anim: {fileID: 95495617993057408}
   cgController: {fileID: 143767414156664970}
   pNumber: 1

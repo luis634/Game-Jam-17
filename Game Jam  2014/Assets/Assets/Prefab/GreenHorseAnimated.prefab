@@ -308,6 +308,7 @@ GameObject:
   - component: {fileID: 95304676225349580}
   - component: {fileID: 143727652157170394}
   - component: {fileID: 114848351883932156}
+  - component: {fileID: 65372192006050508}
   m_Layer: 0
   m_Name: GreenHorseAnimated
   m_TagString: Untagged
@@ -885,7 +886,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1771430914141288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.855074, y: 10.717883, z: 0.22404209}
+  m_LocalPosition: {x: -1.9, y: 10.717883, z: 0.22404209}
   m_LocalScale: {x: 0.73140913, y: 0.73140925, z: 0.73140925}
   m_Children:
   - {fileID: 4627578387317788}
@@ -1381,6 +1382,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1477566120515192}
   m_Mesh: {fileID: 4300000, guid: 4b744a49e3f885945801d5557ab1925d, type: 3}
+--- !u!65 &65372192006050508
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1758663852742672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.21559, y: 37.44182, z: 17.605122}
+  m_Center: {x: 2.9211512, y: 4.5624447, z: 0.50381655}
 --- !u!95 &95304676225349580
 Animator:
   serializedVersion: 3
@@ -1409,9 +1422,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03348b7550d54f34e8b731fa38135c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fSpeed0: 15
   fSpeed: 8
-  fJumpSpeed: 8
-  fGravity: 4
+  fJumpSpeed: 15
+  fGravity: 10
+  powerUpTime: 3
+  speedBoosted: 25
   anim: {fileID: 95304676225349580}
   cgController: {fileID: 143727652157170394}
   pNumber: 1

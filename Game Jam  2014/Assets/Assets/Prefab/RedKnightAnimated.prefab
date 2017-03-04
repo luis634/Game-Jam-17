@@ -417,7 +417,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1786668460163774}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.094104, y: 7.304863, z: -4.134846}
+  m_LocalPosition: {x: -3.36, y: 8.705, z: 6.38}
   m_LocalScale: {x: 0.10782226, y: 0.10782228, z: 0.10782228}
   m_Children:
   - {fileID: 4189132897615076}
@@ -771,7 +771,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 64fdae8721b35844abd467c5aeb05356, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -787,11 +787,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03348b7550d54f34e8b731fa38135c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fSpeed0: 15
   fSpeed: 8
-  fJumpSpeed: 8
-  fGravity: 4
-  anim: {fileID: 0}
+  fJumpSpeed: 15
+  fGravity: 10
+  powerUpTime: 3
+  speedBoosted: 25
+  anim: {fileID: 95734506051501394}
   cgController: {fileID: 143746558668612070}
+  pNumber: 1
 --- !u!143 &143746558668612070
 CharacterController:
   m_ObjectHideFlags: 1

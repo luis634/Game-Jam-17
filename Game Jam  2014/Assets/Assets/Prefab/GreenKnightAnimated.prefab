@@ -787,9 +787,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03348b7550d54f34e8b731fa38135c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fSpeed0: 15
   fSpeed: 8
-  fJumpSpeed: 8
-  fGravity: 4
+  fJumpSpeed: 15
+  fGravity: 10
+  powerUpTime: 3
+  speedBoosted: 25
   anim: {fileID: 95793818106275140}
   cgController: {fileID: 143721148792888036}
   pNumber: 1
