@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4041301413530898}
   - component: {fileID: 33230396997997124}
   - component: {fileID: 23872435301872732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4983095850658222}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PivotLegFR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 4021656056227018}
   - component: {fileID: 33516982602103510}
   - component: {fileID: 23110247440805682}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 4173106274236148}
   - component: {fileID: 33787936006198830}
   - component: {fileID: 23549851801152726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 4991040091317188}
   - component: {fileID: 198294113324061718}
   - component: {fileID: 199259801905972990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParticulasIZ (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 4262172074966014}
   - component: {fileID: 198268434858910432}
   - component: {fileID: 199569155481855592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParticulasDE (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 4932948013616288}
   - component: {fileID: 198541833676704012}
   - component: {fileID: 199432699315228530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParticulasDE (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4033770752379464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse1Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4800832834521798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmPivotR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 4949538392584976}
   - component: {fileID: 33018843848114508}
   - component: {fileID: 23455429792400210}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4202340602800422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LegL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 4585313114209396}
   - component: {fileID: 33505887512329658}
   - component: {fileID: 23921588568285922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4183532955383532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PivotLegBR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4042009714953536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4739562496074176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LegPivotR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4803209198338280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse1Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4273298050947362}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse1Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4894892593678776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4940394416056000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RedKnightTorso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 4168670902843234}
   - component: {fileID: 33076160039874038}
   - component: {fileID: 23662243967596518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4729181823072976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse1Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 4693437965471396}
   - component: {fileID: 33008788906148994}
   - component: {fileID: 23966858952549332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4404420675610628}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PivotLegFL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4017942861472446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 4829968348153298}
   - component: {fileID: 33825246614185190}
   - component: {fileID: 23215391131918286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4362956805571146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PivotLegBL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +431,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4861960918235432}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LegR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 4938495191109502}
   - component: {fileID: 198361119047132264}
   - component: {fileID: 199693912708949802}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParticulasIZ (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 4700946288712632}
   - component: {fileID: 33396928827262860}
   - component: {fileID: 23606945416351130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -480,7 +480,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4167377431850894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -495,7 +495,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4260373431116528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LegPivotL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4347837159331262}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmPivotL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +525,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4381639191712448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,8 @@ GameObject:
   - component: {fileID: 114383960890307864}
   - component: {fileID: 65775600333573938}
   - component: {fileID: 82318154467713318}
-  m_Layer: 0
+  - component: {fileID: 114886696521981850}
+  m_Layer: 8
   m_Name: YellowHorseAnimated
   m_TagString: Horse Player
   m_Icon: {fileID: 0}
@@ -562,7 +563,7 @@ GameObject:
   - component: {fileID: 4077790451227788}
   - component: {fileID: 33448800892239486}
   - component: {fileID: 23458478041249990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +580,7 @@ GameObject:
   - component: {fileID: 4353640173673496}
   - component: {fileID: 33069983665049420}
   - component: {fileID: 23002156061597428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1634,10 +1635,26 @@ MonoBehaviour:
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95052799543557894}
+  lasTrae: 0
   cgController: {fileID: 143817371720112498}
   pNumber: 1
+  frozen: 0
   audGalop: {fileID: 82318154467713318}
   audCheck: {fileID: 8300000, guid: a3dc8be7809b0fd45b61e30103e8a2bc, type: 3}
+--- !u!114 &114886696521981850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876913818009576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae0bd73d5611b6498261e78783ff789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lasTrae: 0
+  tFreeze: 0
+  frozen: 0
 --- !u!143 &143817371720112498
 CharacterController:
   m_ObjectHideFlags: 1
@@ -1663,7 +1680,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1136302433630294}
   serializedVersion: 5
   lengthInSec: 0.75
-  speed: 1
+  simulationSpeed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
@@ -4264,7 +4281,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1117039950362754}
   serializedVersion: 5
   lengthInSec: 0.75
-  speed: 1
+  simulationSpeed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
@@ -6865,7 +6882,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1715971628447618}
   serializedVersion: 5
   lengthInSec: 0.75
-  speed: 1
+  simulationSpeed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
@@ -9466,7 +9483,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1172112820601016}
   serializedVersion: 5
   lengthInSec: 0.75
-  speed: 1
+  simulationSpeed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1

@@ -11,8 +11,10 @@ public class Movement : MonoBehaviour
     public float powerUpTime;
     public float speedBoosted;
     public Animator anim;
+    public bool lasTrae;
     public CharacterController cgController;
     public int pNumber;
+    public bool frozen;
 	public AudioSource audGalop;
 	public AudioClip audCheck;
     private Vector3 moveDirection = Vector3.zero;
@@ -30,8 +32,19 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-
+        Sound();
         CharacterController controller = GetComponent<CharacterController>();
+        if (!frozen)
+        {
+            float fTemp;
+            fTemp = fSpeed0;
+            if (lasTrae)
+                fSpeed0 = fTemp + 2f;
+        }
+        else
+        {
+            fSpeed0 = 0;
+        }
         if (cgController.isGrounded)
         {
 			if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
@@ -40,10 +53,6 @@ public class Movement : MonoBehaviour
                 transform.rotation = Quaternion.LookRotation(cAngle);
                 //cambie con el movimiento
 				anim.SetFloat("Speed", 1);
-				if (audGalop.clip != audCheck && gameObject.tag == "Horse Player") {
-					audGalop.clip = audCheck;
-					audGalop.Play();
-				}
                 //Crea un vector con los valores de entrada
                 cAngle = (new Vector3(0,0,-Input.GetAxis(hAxis)) + new Vector3(Input.GetAxis(vAxis),0,0)).normalized;
                 moveDirection = new Vector3(1f * fSpeed0, 0, 0); //Se mueve
@@ -52,9 +61,6 @@ public class Movement : MonoBehaviour
             {
                 moveDirection = new Vector3(0, 0, 0); //no se mueve
 				anim.SetFloat("Speed", 0);
-				if (audGalop.clip == audCheck && gameObject.tag == "Horse Player") {
-					audGalop.clip = null;
-				}
             }
             moveDirection = transform.TransformDirection(moveDirection);
             anim.SetFloat("Jumpman", 0);
@@ -71,6 +77,26 @@ public class Movement : MonoBehaviour
         }
         moveDirection.y -= fGravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
+    }
+
+
+    private void Sound()
+    {
+        if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
+        {
+            if (audGalop.clip != audCheck && gameObject.tag == "Horse Player")
+            {
+                audGalop.clip = audCheck;
+                audGalop.Play();
+            }
+        }
+        else
+        {
+            if (audGalop.clip == audCheck && gameObject.tag == "Horse Player")
+            {
+                audGalop.clip = null;
+            }
+        }
     }
 
     public IEnumerator speedIncrease()
