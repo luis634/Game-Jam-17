@@ -27,3 +27,7 @@ C:\Users\Luis Carlos\Documents\Videojuegos\Game-Jam 2017\Game Jam  2014\Temp\bin
 C:\Users\Luis Carlos\Documents\Videojuegos\Game-Jam 2017\Game Jam  2014\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Luis Carlos\Documents\Videojuegos\Game-Jam 2017\Game Jam  2014\obj\Debug\Assembly-CSharp.dll
 C:\Users\Luis Carlos\Documents\Videojuegos\Game-Jam 2017\Game Jam  2014\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Luis Carlos\Documents\Videojuegos\Game-Jam 2017\Game Jam  2014\Temp\bin\Debug\UnityEngine.Advertisements.dll
+C:\Users\Luis Carlos\Documents\Videojuegos\Game-Jam 2017\Game Jam  2014\Temp\bin\Debug\UnityEngine.Purchasing.dll
+C:\Users\Luis Carlos\Documents\Videojuegos\Game-Jam 2017\Game Jam  2014\Temp\bin\Debug\UnityEngine.Advertisements.xml
+C:\Users\Luis Carlos\Documents\Videojuegos\Game-Jam 2017\Game Jam  2014\Temp\bin\Debug\UnityEngine.Purchasing.xml
