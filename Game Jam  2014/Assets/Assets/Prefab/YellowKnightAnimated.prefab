@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 82732957775206550}
   m_Layer: 8
   m_Name: YellowKnightAnimated
-  m_TagString: Untagged
+  m_TagString: Horse Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,7 +831,8 @@ AudioSource:
   m_GameObject: {fileID: 1778432088985902}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243445188630995374, guid: a7feb75b1e507cd4eb7290d98817b5f0,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -943,7 +944,7 @@ MonoBehaviour:
   pNumber: 4
   frozen: 0
   audGalop: {fileID: 82732957775206550}
-  audCheck: {fileID: 8300000, guid: a3dc8be7809b0fd45b61e30103e8a2bc, type: 3}
+  audCheck: {fileID: 8300000, guid: aca2144a1140870438e640c407178867, type: 3}
 --- !u!114 &114205483001298102
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -12,12 +12,13 @@ public class PlayerManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         frozen = false;
+        //gameObject.GetComponent<Movement>().frozen = frozen;
+
     }
-	
+
     void Update()
     {
         thisMovement = gameObject.GetComponent<Movement>();
-        thisMovement.frozen = frozen;  
     }
 
     void OnCollisionEnter(Collision other)
