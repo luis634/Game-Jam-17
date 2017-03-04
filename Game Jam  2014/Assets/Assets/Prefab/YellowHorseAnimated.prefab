@@ -544,9 +544,10 @@ GameObject:
   - component: {fileID: 143817371720112498}
   - component: {fileID: 114383960890307864}
   - component: {fileID: 65775600333573938}
+  - component: {fileID: 82318154467713318}
   m_Layer: 0
   m_Name: YellowHorseAnimated
-  m_TagString: Untagged
+  m_TagString: Horse Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1518,6 +1519,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.21559, y: 37.44182, z: 17.605122}
   m_Center: {x: 2.9211512, y: 4.5624447, z: 0.50381655}
+--- !u!82 &82318154467713318
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876913818009576}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95052799543557894
 Animator:
   serializedVersion: 3
@@ -1555,6 +1636,8 @@ MonoBehaviour:
   anim: {fileID: 95052799543557894}
   cgController: {fileID: 143817371720112498}
   pNumber: 1
+  audGalop: {fileID: 82318154467713318}
+  audCheck: {fileID: 8300000, guid: a3dc8be7809b0fd45b61e30103e8a2bc, type: 3}
 --- !u!143 &143817371720112498
 CharacterController:
   m_ObjectHideFlags: 1
@@ -1580,7 +1663,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1136302433630294}
   serializedVersion: 5
   lengthInSec: 0.75
-  simulationSpeed: 1
+  speed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
@@ -4181,7 +4264,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1117039950362754}
   serializedVersion: 5
   lengthInSec: 0.75
-  simulationSpeed: 1
+  speed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
@@ -6782,7 +6865,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1715971628447618}
   serializedVersion: 5
   lengthInSec: 0.75
-  simulationSpeed: 1
+  speed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
@@ -9383,7 +9466,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1172112820601016}
   serializedVersion: 5
   lengthInSec: 0.75
-  simulationSpeed: 1
+  speed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
