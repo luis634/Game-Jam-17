@@ -49,7 +49,7 @@ public class Movement : MonoBehaviour
         }
         if (cgController.isGrounded)
         {
-			if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
+            if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
             { //Condicion para que la animacion
                 cAngle = Quaternion.Euler(0, 90, 0) * cAngle;
                 transform.rotation = Quaternion.LookRotation(cAngle);
@@ -58,35 +58,44 @@ public class Movement : MonoBehaviour
                 //Crea un vector con los valores de entrada
                 cAngle = (new Vector3(0,0,-Input.GetAxis(hAxis)) + new Vector3(Input.GetAxis(vAxis),0,0)).normalized;
                 moveDirection = new Vector3(1f * fSpeed0, 0, 0); //Se mueve
+                if (Input.GetAxis(jButton) != 0)
+                {
+                    jump();                   
+                }
             }
             else
             {
                 moveDirection = new Vector3(0, 0, 0); //no se mueve
 				anim.SetFloat("Speed", 0);
             }
+            if (Input.GetAxis(jButton) != 0)
+            {
+                jump();
+            }
             moveDirection = transform.TransformDirection(moveDirection);
             anim.SetFloat("Jumpman", 0);
             //Cambiar animacion de movimiento a estar parado
-			if (Input.GetButton(jButton))
-            {
-                moveDirection.y = fJumpSpeed;
-                anim.SetFloat("Jumpman", 1);
-            }
         }
         else
         {
+            moveDirection.y -= fGravity * Time.deltaTime;
             anim.SetFloat("Jumpman", 1);
         }
-        moveDirection.y -= fGravity * Time.deltaTime;
+        moveDirection.y -= 0.5f * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
     }
 
+    private void jump()
+    {
+        moveDirection.y = fJumpSpeed;
+        anim.SetFloat("Jumpman", 1);
+    }
 
     private void Sound()
     {
         if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
         {
-            if (audGalop.clip != audCheck && gameObject.tag == "Horse Player")
+            if (audGalop.clip != audCheck && gameObject.tag == "Horse Player" || gameObject.tag == "Knight Player")
             {
                 audGalop.clip = audCheck;
                 audGalop.Play();
@@ -94,7 +103,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            if (audGalop.clip == audCheck && gameObject.tag == "Horse Player")
+            if (audGalop.clip == audCheck && gameObject.tag == "Horse Player" || gameObject.tag == "Knight Player")
             {
                 audGalop.clip = null;
             }

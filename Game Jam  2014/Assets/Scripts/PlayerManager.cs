@@ -4,42 +4,48 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour {
 
-    public bool lasTrae = false;
+    public bool lasTrae;
     public float tFreeze;
     public bool frozen;
-    private Movement Touch,thisMovement;
-
+    public GameObject soldado, caballo;
 	// Use this for initialization
 	void Start () {
         frozen = false;
         //gameObject.GetComponent<Movement>().frozen = frozen;
-
+        //cambio();
     }
 
     void Update()
     {
-        thisMovement = gameObject.GetComponent<Movement>();
     }
 
+    private void cambio()
+    {
+        if (lasTrae)
+        {
+            gameObject.tag = "Horse Player";
+            caballo.SetActive(true);
+            soldado.SetActive(false);
+        }
+        else
+        {
+            gameObject.tag = "Knight Player";
+            caballo.SetActive(false);
+            soldado.SetActive(true);
+        }
+    }
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Players"))
+        print("touched a player");
+        if (other.gameObject.tag == "Horse Player" && lasTrae == false)
         {
-            Touch = other.gameObject.GetComponent<Movement>();
-            print("touched a player");
-            if (lasTrae == false && Touch.lasTrae == false)
-            {
-                //no hace nada...aun
-            }
-            else if (lasTrae == false && Touch.lasTrae == true)
-            {
-                lasTrae = true;
-                StartCoroutine(freeze());
-            }
-            else if (lasTrae == true)
-            {
-                lasTrae = false;
-            }
+            lasTrae = true;
+            cambio();
+        }
+        else if (other.gameObject.tag == "Knight Player" && lasTrae == true)
+        {
+            lasTrae = false;
+            cambio();
         }
     }
 

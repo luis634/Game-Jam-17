@@ -934,7 +934,7 @@ MonoBehaviour:
   fSpeed0: 15
   fSpeed: 8
   fJumpSpeed: 45
-  fGravity: 98
+  fGravity: 90
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95734506051501394}

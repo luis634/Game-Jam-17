@@ -960,9 +960,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fSpeed0: 15
-  fSpeed: 8
+  fSpeed: 10
   fJumpSpeed: 45
-  fGravity: 98
+  fGravity: 90
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95114672968016956}

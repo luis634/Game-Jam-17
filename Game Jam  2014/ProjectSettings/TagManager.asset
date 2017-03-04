@@ -15,6 +15,7 @@ TagManager:
   - ItemSpawn5
   - ItemSpawn6
   - Horse Player
+  - Knight Player
   layers:
   - Default
   - TransparentFX

@@ -1643,10 +1643,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03348b7550d54f34e8b731fa38135c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fSpeed0: 15
+  fSpeed0: 18
   fSpeed: 8
   fJumpSpeed: 45
-  fGravity: 98
+  fGravity: 90
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95842197055260576}
