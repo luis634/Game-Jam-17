@@ -857,7 +857,7 @@ MonoBehaviour:
   speedBoosted: 25
   anim: {fileID: 95114672968016956}
   cgController: {fileID: 143087866964370344}
-  pNumber: 1
+  pNumber: 2
 --- !u!143 &143087866964370344
 CharacterController:
   m_ObjectHideFlags: 1
