@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 82604049409730792}
   m_Layer: 8
   m_Name: GreenHorseAnimated
-  m_TagString: Untagged
+  m_TagString: Horse Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1528,7 +1528,8 @@ AudioSource:
   m_GameObject: {fileID: 1758663852742672}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243445188630995374, guid: a7feb75b1e507cd4eb7290d98817b5f0,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -1644,8 +1645,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fSpeed0: 15
   fSpeed: 8
-  fJumpSpeed: 15
-  fGravity: 10
+  fJumpSpeed: 45
+  fGravity: 98
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95304676225349580}

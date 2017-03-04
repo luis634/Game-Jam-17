@@ -2,6 +2,8 @@
 
 public class CameraControl : MonoBehaviour
 {
+
+	public static CameraControl instance { get; set;}
     public float m_DampTime = 0.2f;
     public float m_ScreenEdgeBuffer = 4f;
     public float m_MinSize = 6.5f;
@@ -14,6 +16,10 @@ public class CameraControl : MonoBehaviour
     private Vector3 m_MoveVelocity;
     private Vector3 m_DesiredPosition;
 
+	private void Start()
+	{
+		instance = this;
+	}
 
     private void Awake()
     {

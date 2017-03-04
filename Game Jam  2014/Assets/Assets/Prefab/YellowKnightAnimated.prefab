@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 95202711754138906}
   - component: {fileID: 114050765888183228}
   - component: {fileID: 114205483001298102}
+  - component: {fileID: 82732957775206550}
   m_Layer: 8
   m_Name: YellowKnightAnimated
   m_TagString: Untagged
@@ -822,6 +823,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.96072, y: -41.629215, z: 23.74165}
   m_Center: {x: -0.5124543, y: -1.621756, z: 0.07820194}
+--- !u!82 &82732957775206550
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778432088985902}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95202711754138906
 Animator:
   serializedVersion: 3
@@ -852,8 +933,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fSpeed0: 15
   fSpeed: 8
-  fJumpSpeed: 15
-  fGravity: 10
+  fJumpSpeed: 45
+  fGravity: 98
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95202711754138906}
@@ -861,8 +942,8 @@ MonoBehaviour:
   cgController: {fileID: 143017144675848898}
   pNumber: 4
   frozen: 0
-  audGalop: {fileID: 0}
-  audCheck: {fileID: 0}
+  audGalop: {fileID: 82732957775206550}
+  audCheck: {fileID: 8300000, guid: a3dc8be7809b0fd45b61e30103e8a2bc, type: 3}
 --- !u!114 &114205483001298102
 MonoBehaviour:
   m_ObjectHideFlags: 1

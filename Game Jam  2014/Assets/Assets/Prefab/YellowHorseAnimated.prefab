@@ -1528,7 +1528,8 @@ AudioSource:
   m_GameObject: {fileID: 1876913818009576}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243445188630995374, guid: a7feb75b1e507cd4eb7290d98817b5f0,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -1630,14 +1631,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fSpeed0: 15
   fSpeed: 8
-  fJumpSpeed: 15
-  fGravity: 10
+  fJumpSpeed: 45
+  fGravity: 98
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95052799543557894}
   lasTrae: 0
   cgController: {fileID: 143817371720112498}
-  pNumber: 1
+  pNumber: 4
   frozen: 0
   audGalop: {fileID: 82318154467713318}
   audCheck: {fileID: 8300000, guid: a3dc8be7809b0fd45b61e30103e8a2bc, type: 3}

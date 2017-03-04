@@ -21,12 +21,14 @@ public class Movement : MonoBehaviour
     private Vector3 cAngle;
     private string hAxis;
     private string vAxis;
+	private string jButton;
 
     void Start()
     {
         anim = GetComponent<Animator>();
         hAxis = "Horizontal" + pNumber;
         vAxis = "Vertical" + pNumber;
+		jButton = "Jump" + pNumber;  
 		anim.SetFloat ("Speed", 0);
     }
 
@@ -65,7 +67,7 @@ public class Movement : MonoBehaviour
             moveDirection = transform.TransformDirection(moveDirection);
             anim.SetFloat("Jumpman", 0);
             //Cambiar animacion de movimiento a estar parado
-            if (Input.GetButton("Jump"))
+			if (Input.GetButton(jButton))
             {
                 moveDirection.y = fJumpSpeed;
                 anim.SetFloat("Jumpman", 1);
