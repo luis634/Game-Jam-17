@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
 	public static GameManager instance { get; set;}
 	public GameObject [] players;
-	private Transform[] targets = new Transform[4];
+	//private Transform[] targets = new Transform[4];
 	public float time1, time2, time3;
 	public int phase;
 	private bool onPhase, gameFinished;
@@ -14,10 +14,18 @@ public class GameManager : MonoBehaviour {
 		onPhase = false;
 		gameFinished = false;
 		phase = 1;
-		for (int i = 0; i < players.Length; i++) {
-			Instantiate(players[i], GameObject.FindWithTag("Spawn" + (i+1)).GetComponent<Transform>().position, Quaternion.identity);
-			players [i].GetComponent<Movement>().pNumber = i + 1;
-			targets[i] = players [i].GetComponent<Transform>();
+		int horseSpawn = Mathf.FloorToInt(Random.Range(4.0f, 7.99f));
+		print (horseSpawn);
+		Instantiate(players[horseSpawn], GameObject.FindWithTag("Spawn" + (horseSpawn - 4 + 1)).GetComponent<Transform>().position, Quaternion.identity);
+		players [horseSpawn].GetComponent<Movement>().pNumber = horseSpawn - 4 + 1;
+		print ("pNumber of horse: " + players [horseSpawn].GetComponent<Movement> ().pNumber);
+		int knightNotSpawned = horseSpawn - 4;
+		for (int i = 0; i < 4; i++) {
+			if (knightNotSpawned == i && i != 3)
+				i++;
+				Instantiate(players[i], GameObject.FindWithTag("Spawn" + (i+1)).GetComponent<Transform>().position, Quaternion.identity);
+				players [i].GetComponent<Movement>().pNumber = i + 1;
+			//targets[i] = players [i].GetComponent<Transform>();
 		}
 		StartCoroutine (Countdown (time1));
 		instance = this;
