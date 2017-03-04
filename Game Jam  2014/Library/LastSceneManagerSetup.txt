@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Empty.unity
+- path: Assets/Scenes/Knights.unity
   isLoaded: 1
   isActive: 1
