@@ -64,7 +64,7 @@ public class Movement : MonoBehaviour
         controller.Move(moveDirection * Time.deltaTime);
     }
 
-    IEnumerator speedIncrease()
+    public IEnumerator speedIncrease()
     {
         float tDuration = 0;
         float temp = fSpeed0;
@@ -80,7 +80,7 @@ public class Movement : MonoBehaviour
             yield return null;  
         }
     }
-    IEnumerator invisibility()
+    public IEnumerator invisibility()
     {
         float tDuration = 0;
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer> ();//Mete los renderers de los hijos en el arreglo

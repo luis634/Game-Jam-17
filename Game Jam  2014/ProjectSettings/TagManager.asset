@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Spawn1
+  - Spawn2
+  - Spawn3
+  - Spawn4
+  - ItemSpawn1
+  - ItemSpawn2
+  - ItemSpawn3
+  - ItemSpawn4
+  - ItemSpawn5
+  - ItemSpawn6
   layers:
   - Default
   - TransparentFX
@@ -13,7 +23,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Players
   - 
   - 
   - 
