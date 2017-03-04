@@ -2,22 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collisions : MonoBehaviour {
+public class PlayerManager : MonoBehaviour {
 
     public bool lasTrae = false;
     public float tFreeze;
     public bool frozen;
+    private Movement Touch,thisMovement;
 
 	// Use this for initialization
 	void Start () {
         frozen = false;
-	}
+    }
 	
-    void OnCollisionEnter(Collider other)
+    void Update()
     {
-        if (other.GetComponent<Collider>().gameObject.layer == LayerMask.NameToLayer("Players"))
+        thisMovement = gameObject.GetComponent<Movement>();
+        thisMovement.frozen = frozen;  
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Players"))
         {
-            Collisions Touch = other.GetComponent<Collisions>();
+            Touch = other.gameObject.GetComponent<Movement>();
             print("touched a player");
             if (lasTrae == false && Touch.lasTrae == false)
             {

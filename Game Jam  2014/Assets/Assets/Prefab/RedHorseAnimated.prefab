@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4882909160495120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse1Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4442568346727624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmPivotR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 4682157798734246}
   - component: {fileID: 198583035552092530}
   - component: {fileID: 199197913405955676}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParticulasIZ (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   - component: {fileID: 4342939421776878}
   - component: {fileID: 198265452272977316}
   - component: {fileID: 199854443579436198}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParticulasDE (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 4387406575844768}
   - component: {fileID: 33172469947829350}
   - component: {fileID: 23041976317562972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4957572827796958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LegPivotR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4081422267825316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 4473051720623382}
   - component: {fileID: 33811086733040574}
   - component: {fileID: 23007962734077824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 4202334366223322}
   - component: {fileID: 33233866499031072}
   - component: {fileID: 23377381326582598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4294015784697670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse1Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4501182842173504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PivotLegFR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4098167544836728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4416251177107240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4747828982398630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 4566862085250412}
   - component: {fileID: 33495562056686058}
   - component: {fileID: 23101353931946368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4740070399804424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse1Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 4223451309138122}
   - component: {fileID: 33129404339036716}
   - component: {fileID: 23149111920601706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 4987955660603060}
   - component: {fileID: 33475616820468028}
   - component: {fileID: 23836874419036810}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 4941035399842338}
   - component: {fileID: 33686119586421050}
   - component: {fileID: 23176532472683778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4404531576958434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PivotLegBL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4910763962251866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmPivotL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4469020239274192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LegPivotL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 4028080039877086}
   - component: {fileID: 33265325036591634}
   - component: {fileID: 23099121421944610}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4638203691860920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LegR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 4295001562269972}
   - component: {fileID: 33829284629214730}
   - component: {fileID: 23478819900400374}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4533437817461514}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PivotLegFL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +433,7 @@ GameObject:
   - component: {fileID: 4124381019302134}
   - component: {fileID: 198217509235182950}
   - component: {fileID: 199502815984341378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParticulasDE (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4274037477237466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RedKnightTorso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4284042638486132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse1Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -482,7 +482,9 @@ GameObject:
   - component: {fileID: 143249594372475606}
   - component: {fileID: 114806772548557698}
   - component: {fileID: 65539654013611720}
-  m_Layer: 0
+  - component: {fileID: 114591965054908846}
+  - component: {fileID: 82410191134105624}
+  m_Layer: 8
   m_Name: RedHorseAnimated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +499,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4386191036931292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PivotLegBR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -514,7 +516,7 @@ GameObject:
   - component: {fileID: 4741466185290184}
   - component: {fileID: 33314296765282770}
   - component: {fileID: 23110570709102748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +531,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4373453083274050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -546,7 +548,7 @@ GameObject:
   - component: {fileID: 4634172572286612}
   - component: {fileID: 198917471749846332}
   - component: {fileID: 199701417621342266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParticulasIZ (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +565,7 @@ GameObject:
   - component: {fileID: 4433073435119790}
   - component: {fileID: 33006503589698716}
   - component: {fileID: 23588775203159886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +580,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4214877175609026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LegL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -592,7 +594,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1827756986175634}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -3.53, y: 8.34, z: 12.523027}
+  m_LocalPosition: {x: -16.470528, y: 0.78, z: 19.222832}
   m_LocalScale: {x: 0.14741717, y: 0.14741717, z: 0.14741717}
   m_Children:
   - {fileID: 4098167544836728}
@@ -1518,6 +1520,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.21559, y: 37.44182, z: 17.605122}
   m_Center: {x: 2.9211512, y: 4.5624447, z: 0.50381655}
+--- !u!82 &82410191134105624
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827756986175634}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a3dc8be7809b0fd45b61e30103e8a2bc, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95842197055260576
 Animator:
   serializedVersion: 3
@@ -1535,6 +1617,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114591965054908846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827756986175634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae0bd73d5611b6498261e78783ff789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lasTrae: 1
+  tFreeze: 0
+  frozen: 0
 --- !u!114 &114806772548557698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1553,8 +1649,12 @@ MonoBehaviour:
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95842197055260576}
+  lasTrae: 0
   cgController: {fileID: 143249594372475606}
-  pNumber: 1
+  pNumber: 2
+  frozen: 0
+  audGalop: {fileID: 82410191134105624}
+  audCheck: {fileID: 8300000, guid: a3dc8be7809b0fd45b61e30103e8a2bc, type: 3}
 --- !u!143 &143249594372475606
 CharacterController:
   m_ObjectHideFlags: 1
