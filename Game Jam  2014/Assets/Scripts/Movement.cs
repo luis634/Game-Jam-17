@@ -7,11 +7,12 @@ public class Movement : MonoBehaviour {
 	public float fSpeed;
 	public float fJumpSpeed; 
 	public float fGravity;
+	public CharacterController cgController;
 	private Vector3 moveDirection = Vector3.zero;
 
 	void Update() {
 		CharacterController controller = GetComponent<CharacterController>();
-		if (controller.isGrounded) {
+		if (cgController.isGrounded) {
 			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 			moveDirection = transform.TransformDirection(moveDirection);
 			moveDirection *= fSpeed;
