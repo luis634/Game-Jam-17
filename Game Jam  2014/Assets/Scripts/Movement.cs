@@ -13,6 +13,8 @@ public class Movement : MonoBehaviour
     public Animator anim;
     public CharacterController cgController;
     public int pNumber;
+	public AudioSource audGalop;
+	public AudioClip audCheck;
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 cAngle;
     private string hAxis;
@@ -32,12 +34,16 @@ public class Movement : MonoBehaviour
         CharacterController controller = GetComponent<CharacterController>();
         if (cgController.isGrounded)
         {
-            if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
+			if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
             { //Condicion para que la animacion
                 cAngle = Quaternion.Euler(0, 90, 0) * cAngle;
                 transform.rotation = Quaternion.LookRotation(cAngle);
                 //cambie con el movimiento
 				anim.SetFloat("Speed", 1);
+				if (audGalop.clip != audCheck && gameObject.tag == "Horse Player") {
+					audGalop.clip = audCheck;
+					audGalop.Play();
+				}
                 //Crea un vector con los valores de entrada
                 cAngle = (new Vector3(0,0,-Input.GetAxis(hAxis)) + new Vector3(Input.GetAxis(vAxis),0,0)).normalized;
                 moveDirection = new Vector3(1f * fSpeed0, 0, 0); //Se mueve
@@ -45,7 +51,10 @@ public class Movement : MonoBehaviour
             else
             {
                 moveDirection = new Vector3(0, 0, 0); //no se mueve
-				anim.SetFloat("Speed", 0); 
+				anim.SetFloat("Speed", 0);
+				if (audGalop.clip == audCheck && gameObject.tag == "Horse Player") {
+					audGalop.clip = null;
+				}
             }
             moveDirection = transform.TransformDirection(moveDirection);
             anim.SetFloat("Jumpman", 0);
