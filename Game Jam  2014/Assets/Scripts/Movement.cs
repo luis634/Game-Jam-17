@@ -10,12 +10,17 @@ public class Movement : MonoBehaviour
     public float fGravity;
     public Animator anim;
     public CharacterController cgController;
+    public int pNumber;
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 cAngle;
+    private string hAxis;
+    private string vAxis;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        hAxis = "Horizontal" + pNumber;
+        vAxis = "Vertical" + pNumber;
     }
 
     void Update()
@@ -24,12 +29,12 @@ public class Movement : MonoBehaviour
 
         if (cgController.isGrounded)
         {
-            if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+            if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
             { //Condicion para que la animacion
                 anim.SetFloat("Speed", 1);
                 //cambie con el movimiento
                 //Crea un vector con los valores de entrada
-                cAngle = (new Vector3(0,0,-Input.GetAxis("Horizontal")) + new Vector3(Input.GetAxis("Vertical"),0,0)).normalized;
+                cAngle = (new Vector3(0,0,-Input.GetAxis(hAxis)) + new Vector3(Input.GetAxis(vAxis),0,0)).normalized;
 
                 moveDirection = new Vector3(0.5f, 0, 0); //Se mueve
                 cAngle = Quaternion.Euler(0, 90, 0) * cAngle;

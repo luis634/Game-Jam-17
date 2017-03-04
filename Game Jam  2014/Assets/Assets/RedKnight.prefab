@@ -792,6 +792,7 @@ MonoBehaviour:
   fGravity: 4
   anim: {fileID: 95972035299017314}
   cgController: {fileID: 143774099655482662}
+  pNumber: 1
 --- !u!143 &143774099655482662
 CharacterController:
   m_ObjectHideFlags: 1
