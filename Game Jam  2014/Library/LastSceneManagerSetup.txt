@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Empty - Copy.unity
+=======
+- path: Assets/Scenes/Knights.unity
+>>>>>>> 5cdca538d09985ef2ebcf8136c9d1afd9cd6644e
   isLoaded: 1
   isActive: 1
