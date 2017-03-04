@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
 	void Start () {
 		for (int i = 0; i < players.Length; i++) {
 			Instantiate(players[i], GameObject.FindWithTag("Spawn" + (i+1)).GetComponent<Transform>().position, Quaternion.identity);
+			players [i].GetComponent<Movement>().pNumber = i + 1;
 		}
 	}
 	
