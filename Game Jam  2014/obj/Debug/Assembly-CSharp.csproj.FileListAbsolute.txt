@@ -37,3 +37,32 @@ C:\Users\luis3\Desktop\Game Jam\Game Jam  2014\obj\Debug\Assembly-CSharp.csprojR
 C:\Users\luis3\Desktop\Game Jam\Game Jam  2014\obj\Debug\Assembly-CSharp.dll
 C:\Users\luis3\Desktop\Game Jam\Game Jam  2014\obj\Debug\Assembly-CSharp.pdb
 >>>>>>> ea1fd8e3f6a712e34cd549ee98d9788b72f94592
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\obj\Debug\Assembly-CSharp.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Jose\Documents\GitHub\gamejam\Game Jam  2014\obj\Debug\Assembly-CSharp.pdb
