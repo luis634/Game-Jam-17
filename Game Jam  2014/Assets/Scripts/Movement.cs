@@ -21,6 +21,7 @@ public class Movement : MonoBehaviour
         anim = GetComponent<Animator>();
         hAxis = "Horizontal" + pNumber;
         vAxis = "Vertical" + pNumber;
+		anim.SetFloat ("Speed", 0);
     }
 
     void Update()
@@ -31,8 +32,8 @@ public class Movement : MonoBehaviour
         {
             if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
             { //Condicion para que la animacion
-                anim.SetFloat("Speed", 1);
                 //cambie con el movimiento
+				anim.SetFloat("Speed", 1);
                 //Crea un vector con los valores de entrada
                 cAngle = (new Vector3(0,0,-Input.GetAxis(hAxis)) + new Vector3(Input.GetAxis(vAxis),0,0)).normalized;
 
@@ -43,11 +44,12 @@ public class Movement : MonoBehaviour
             else
             {
                 moveDirection = new Vector3(0, 0, 0); //no se mueve
+				anim.SetFloat("Speed", 0); 
             }
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= fSpeed;
             anim.SetFloat("Jumpman", 0);
-            anim.SetFloat("Speed", 0); //Cambiar animacion de movimiento a estar parado
+            //Cambiar animacion de movimiento a estar parado
             if (Input.GetButton("Jump"))
             {
                 moveDirection.y = fJumpSpeed;
