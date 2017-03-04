@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Luis Angel.unity
-=======
 - path: Assets/Scenes/Game.unity
->>>>>>> ef2cb206ce80f2fe2c3748e2c6406568afd9b95b
   isLoaded: 1
   isActive: 1

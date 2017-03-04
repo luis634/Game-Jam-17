@@ -52,7 +52,6 @@ public class Movement : MonoBehaviour
             //Cambiar animacion de movimiento a estar parado
             if (Input.GetButton("Jump"))
             {
-                StartCoroutine(speedIncrease());
                 moveDirection.y = fJumpSpeed;
                 anim.SetFloat("Jumpman", 1);
             }
