@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fSpeed0: 18
   fSpeed: 8
-  fJumpSpeed: 45
+  fJumpSpeed: 60
   fGravity: 90
   powerUpTime: 3
   speedBoosted: 25
@@ -1656,6 +1656,8 @@ MonoBehaviour:
   lasTrae: 0
   tFreeze: 0
   frozen: 0
+  soldado: {fileID: 0}
+  caballo: {fileID: 0}
 --- !u!143 &143817371720112498
 CharacterController:
   m_ObjectHideFlags: 1

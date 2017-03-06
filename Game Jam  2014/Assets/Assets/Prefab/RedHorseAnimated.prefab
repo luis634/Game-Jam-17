@@ -1632,6 +1632,8 @@ MonoBehaviour:
   lasTrae: 1
   tFreeze: 0
   frozen: 0
+  soldado: {fileID: 0}
+  caballo: {fileID: 0}
 --- !u!114 &114806772548557698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1645,14 +1647,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fSpeed0: 18
   fSpeed: 8
-  fJumpSpeed: 45
+  fJumpSpeed: 60
   fGravity: 90
   powerUpTime: 3
   speedBoosted: 25
   anim: {fileID: 95842197055260576}
   lasTrae: 0
   cgController: {fileID: 143249594372475606}
-  pNumber: 2
+  pNumber: 1
   frozen: 0
   audGalop: {fileID: 82410191134105624}
   audCheck: {fileID: 8300000, guid: a3dc8be7809b0fd45b61e30103e8a2bc, type: 3}

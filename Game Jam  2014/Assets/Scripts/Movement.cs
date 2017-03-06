@@ -52,16 +52,20 @@ public class Movement : MonoBehaviour
         {
             if (Input.GetAxis(jButton) != 0)
             {
-                StartCoroutine(jump());
+                jump();
             }
             anim.SetFloat("Jumpman", 0);
             //Cambiar animacion de movimiento a estar parado
             if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
             { //Condicion para que la animacion           
                 anim.SetFloat("Speed", 1);
-                moveDirection = new Vector3(Input.GetAxis(hAxis), 0, Input.GetAxis(vAxis));
+                moveDirection = new Vector3(-Input.GetAxis(vAxis), 0, Input.GetAxis(hAxis));
                 moveDirection *= fSpeed0;
-                transform.rotation = Quaternion.LookRotation(new Vector3(-Input.GetAxis(vAxis), 0, Input.GetAxis(hAxis)));
+                transform.rotation = Quaternion.LookRotation(new Vector3(-Input.GetAxis(hAxis), 0,- Input.GetAxis(vAxis)));
+                if (Input.GetAxis(jButton) != 0)
+                {
+                    jump();
+                }
             }
             else
             {
@@ -69,7 +73,7 @@ public class Movement : MonoBehaviour
             }
         }
         else
-        {
+        {           
             moveDirection.y -= fGravity * Time.deltaTime;
             anim.SetFloat("Jumpman", 1);
         }
@@ -77,14 +81,10 @@ public class Movement : MonoBehaviour
         controller.Move(moveDirection * Time.deltaTime);
     }
 
-   public IEnumerator jump()
+   public void jump()
     {
-        float gravity = fGravity;
-        fGravity = 0;
         moveDirection.y = fJumpSpeed;
         anim.SetFloat("Jumpman", 1);
-        yield return new WaitForSeconds(0.1f);
-        fGravity = gravity;
     }
 
     private void Sound()

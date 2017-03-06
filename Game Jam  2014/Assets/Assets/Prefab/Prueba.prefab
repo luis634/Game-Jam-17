@@ -2590,7 +2590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fSpeed0: 18
   fSpeed: 8
-  fJumpSpeed: 45
+  fJumpSpeed: 60
   fGravity: 90
   powerUpTime: 3
   speedBoosted: 25
