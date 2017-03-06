@@ -17,18 +17,21 @@ public class PlayerManager : MonoBehaviour {
 
     void Update()
     {
+        
     }
 
     private void cambio()
     {
         if (lasTrae)
         {
+            print("Cambia a caballo");
             gameObject.tag = "Horse Player";
             caballo.SetActive(true);
             soldado.SetActive(false);
         }
         else
         {
+            print("Cambia a soldado");
             gameObject.tag = "Knight Player";
             caballo.SetActive(false);
             soldado.SetActive(true);

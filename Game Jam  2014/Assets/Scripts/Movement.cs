@@ -25,6 +25,7 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
+        moveDirection.y = transform.localPosition.y;
         anim = GetComponent<Animator>();
         hAxis = "Horizontal" + pNumber;
         vAxis = "Vertical" + pNumber;
@@ -41,7 +42,7 @@ public class Movement : MonoBehaviour
             float fTemp;
             fTemp = fSpeed0;
             if (lasTrae)
-                fSpeed0 = fTemp + 2f;
+                fSpeed0 = fTemp;
         }
         else
         {
@@ -49,46 +50,41 @@ public class Movement : MonoBehaviour
         }
         if (cgController.isGrounded)
         {
+            if (Input.GetAxis(jButton) != 0)
+            {
+                StartCoroutine(jump());
+            }
+            anim.SetFloat("Jumpman", 0);
+            //Cambiar animacion de movimiento a estar parado
             if (Input.GetAxis(hAxis) != 0 || Input.GetAxis(vAxis) != 0)
-            { //Condicion para que la animacion
-                cAngle = Quaternion.Euler(0, 90, 0) * cAngle;
-                transform.rotation = Quaternion.LookRotation(cAngle);
-                //cambie con el movimiento
-				anim.SetFloat("Speed", 1);
-                //Crea un vector con los valores de entrada
-                cAngle = (new Vector3(0,0,-Input.GetAxis(hAxis)) + new Vector3(Input.GetAxis(vAxis),0,0)).normalized;
-                moveDirection = new Vector3(1f * fSpeed0, 0, 0); //Se mueve
-                if (Input.GetAxis(jButton) != 0)
-                {
-                    jump();                   
-                }
+            { //Condicion para que la animacion           
+                anim.SetFloat("Speed", 1);
+                moveDirection = new Vector3(Input.GetAxis(hAxis), 0, Input.GetAxis(vAxis));
+                moveDirection *= fSpeed0;
+                transform.rotation = Quaternion.LookRotation(new Vector3(-Input.GetAxis(vAxis), 0, Input.GetAxis(hAxis)));
             }
             else
             {
-                moveDirection = new Vector3(0, 0, 0); //no se mueve
-				anim.SetFloat("Speed", 0);
+                anim.SetFloat("Speed", 0);
             }
-            if (Input.GetAxis(jButton) != 0)
-            {
-                jump();
-            }
-            moveDirection = transform.TransformDirection(moveDirection);
-            anim.SetFloat("Jumpman", 0);
-            //Cambiar animacion de movimiento a estar parado
         }
         else
         {
             moveDirection.y -= fGravity * Time.deltaTime;
             anim.SetFloat("Jumpman", 1);
         }
-        moveDirection.y -= 0.5f * Time.deltaTime;
+        moveDirection.y -= fGravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
     }
 
-    private void jump()
+   public IEnumerator jump()
     {
+        float gravity = fGravity;
+        fGravity = 0;
         moveDirection.y = fJumpSpeed;
         anim.SetFloat("Jumpman", 1);
+        yield return new WaitForSeconds(0.1f);
+        fGravity = gravity;
     }
 
     private void Sound()

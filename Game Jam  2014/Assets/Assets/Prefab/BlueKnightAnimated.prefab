@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 114352277862178754}
   m_Layer: 8
   m_Name: BlueKnightAnimated
-  m_TagString: Horse Player
+  m_TagString: Knight Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -561,7 +561,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1286277974099508}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.45, y: 8.705, z: 6.39}
+  m_LocalPosition: {x: -23.279924, y: 2.73, z: -4.068528}
   m_LocalScale: {x: 0.10782226, y: 0.10782228, z: 0.10782228}
   m_Children:
   - {fileID: 4623636169226420}
@@ -948,6 +948,8 @@ MonoBehaviour:
   lasTrae: 0
   tFreeze: 0
   frozen: 0
+  soldado: {fileID: 0}
+  caballo: {fileID: 0}
 --- !u!114 &114761186508965198
 MonoBehaviour:
   m_ObjectHideFlags: 1
