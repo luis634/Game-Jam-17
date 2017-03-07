@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,4 +25,4 @@ public class PowerUpScript : MonoBehaviour {
 		//else if (num <= 2 && num >= 1)
 			//StartCoroutine (Movement.invisibility());
 	//}
-}
+}*/
